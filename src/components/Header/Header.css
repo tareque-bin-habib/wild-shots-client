@@ -1,0 +1,15 @@
+.title-name {
+    color: yellowgreen;
+}
+
+.menu a {
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    font-weight: 800;
+}

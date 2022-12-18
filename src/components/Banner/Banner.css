@@ -1,0 +1,24 @@
+.banner-img-1 {
+    background-image: url(../../image/banner/13.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.banner-img-2 {
+    background-image: url(../../image/banner/nintchdbpict000286875803.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-img-3 {
+    background-image: url(../../image/banner/willbl_feat.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
