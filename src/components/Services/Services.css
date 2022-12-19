@@ -5,3 +5,39 @@
     row-gap: 80px;
     padding: 100px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 1380px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .services-container img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-container img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .services-container img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .services-container img {
+        height: 150px;
+    }
+}
