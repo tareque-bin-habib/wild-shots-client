@@ -12,7 +12,7 @@ const Bio = () => {
                         Exact <span className='title-name'>Science</span> </h1>
                     <p>Making good on the Glasgow Climate Pact: a call to action to achieve one gigaton of emissions reductions from forests by 2025</p>
                     <Button className='bio-btn' size="lg">
-                        Large button
+                        Learn more
                     </Button>
                 </div>
                 <div>

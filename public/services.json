@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Wild Lion",
+        "image": "https://i.guim.co.uk/img/media/f75f84778dc6c20e519223cdd39ec0f974f2c9b0/0_239_3583_2150/master/3583.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=679a9ea087d210112f70eda780c6fed1",
+        "ratings": 4.3,
+        "Price": 900,
+        "details": "Lions have strong, compact bodies and powerful forelegs, teeth and jaws for pulling down and killing prey. Their coats are yellow-gold, and adult males have shaggy manes that range in color from blond to reddish-brown to black. The length and color of a lion's mane is likely determined by age, genetics and hormones."
+    },
+    {
+        "name": "Royel Bangal Tiger",
+        "image": "https://book-my-safari.com/wp-content/uploads/2018/03/hm-slider2-tiger-tree-frame.jpg",
+        "ratings": 4.5,
+        "Price": 800,
+        "details": "The largest species of cat in the world, tigers are powerful hunters with sharp teeth, strong jaws and agile bodies. They range across Asia from Russia all the way to the Sumatra and Indochina. Researchers still have much to learn about these beautiful, critically endangered, solitary cats."
+    },
+    {
+        "name": "Quara",
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-4c03c86091d3b841fd2471117c8ebb23-lq",
+        "ratings": 4.6,
+        "Price": 1000,
+        "details": "Hyena, (family Hyaenidae), also spelled hyaena, any of three species of coarse-furred, doglike carnivores found in Asia and Africa and noted for their scavenging habits. Hyenas have long forelegs and a powerful neck and shoulders for dismembering and carrying prey."
+    },
+    {
+        "name": "Eagle",
+        "image": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/23969-ts.jpg?itok=aIxd36kv",
+        "ratings": 4.5,
+        "Price": 950,
+        "details": "Eagles are generally larger and more powerful than hawks and may resemble a vulture in build and flight characteristics, but they have a fully feathered (often crested) head and strong feet equipped with great curved talons. Most species subsist mainly on live prey, which they generally capture on the ground."
+    },
+    {
+        "name": "Wild Deer",
+        "image": "https://cdnpt01.viewbug.com/media/mediafiles/2015/12/26/61644923_large1300.jpg",
+        "ratings": 4.7,
+        "Price": 600,
+        "details": "White-tailed deer are large mammals. Adult deer can measure between 31 and 40 inches tall at the shoulder, and weigh up to 300 pounds. Their coat is a reddish-brown during summer, and a duller grayish-brown during winter months. Their throats, inner ears, underparts, and the underside of their tails are white."
+    },
+    {
+        "name": "Zebra",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdsLmLv77rDczmWz9AL6Pi1AAj5fVevsmHtdjy-46ulcPNsoQtgTU8c_VnP20oBzBC0k&usqp=CAU",
+        "ratings": 4.1,
+        "Price": 500,
+        "details": "Zebras are famously stripy members of the horse family. These distinctive creatures are native to Africa, and actually consist of three different species. The plains zebra is the most common, the largest is the Grevy’s zebra, and the last species is the mountain zebra. Read on to learn about the zebra."
+    }
+]
