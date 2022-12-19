@@ -9,6 +9,7 @@ import Signup from './components/Signup/Signup';
 import Services from './components/Services/Services';
 import Checkout from './components/Checkout/Checkout';
 import PrivateRoutes from './routes/PrivateRoutes';
+import Review from './components/Review/Review';
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
           path: '/checkout/:id',
           element: <PrivateRoutes><Checkout></Checkout></PrivateRoutes>,
           loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+        },
+        {
+          path: '/review',
+          element: <Review></Review>
         }
       ]
     }

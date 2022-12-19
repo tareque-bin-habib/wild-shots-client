@@ -11,7 +11,7 @@ const Banner = () => {
             <Carousel>
                 <Carousel.Item>
                     <div className='banner-img-1'>
-                        <h2>My name is Tareque</h2>
+                        <h2></h2>
                     </div>
 
                 </Carousel.Item>
