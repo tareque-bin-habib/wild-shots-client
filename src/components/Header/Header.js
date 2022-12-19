@@ -20,6 +20,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto me-0 menu">
                             <Link to='/'>Home</Link>
+                            <Link to='/services'>Services</Link>
                             <Link to='/blog'>Blog</Link>
                             {
                                 user?.uid ?

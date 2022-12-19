@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
@@ -14,9 +15,9 @@ const Service = ({ service }) => {
                     <Card.Text>
                         <p className='mt-1'>{details.slice(0, 80) + '...'}</p>
                         <p><small className='title-name fw-bold'>Ratings:</small> {ratings} Star</p>
-                        <p><small className='fw-bold title-name'>Price:</small> {Price}</p>
+                        <p><small className='fw-bold title-name'>Price:</small> ${Price}</p>
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Link to={`/checkout/${_id}`}><Button variant="primary">Buy Now</Button></Link>
                 </Card.Body>
             </Card>
         </div>

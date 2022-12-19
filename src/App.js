@@ -6,6 +6,10 @@ import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
 import Signin from './components/Signin/Signin';
 import Signup from './components/Signup/Signup';
+import Services from './components/Services/Services';
+import Checkout from './components/Checkout/Checkout';
+import PrivateRoutes from './routes/PrivateRoutes';
+
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +32,15 @@ function App() {
         {
           path: '/signup',
           element: <Signup></Signup>
+        },
+        {
+          path: '/services',
+          element: <Services></Services>
+        },
+        {
+          path: '/checkout/:id',
+          element: <PrivateRoutes><Checkout></Checkout></PrivateRoutes>,
+          loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
         }
       ]
     }
