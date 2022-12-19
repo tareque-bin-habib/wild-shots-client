@@ -1,0 +1,30 @@
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+    .review-image {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .review-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .review-image {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .review-image {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .review-image {
+        width: 250px;
+    }
+}

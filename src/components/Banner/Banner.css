@@ -22,3 +22,42 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.banner h1 {
+    font-size: 50px;
+}
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .banner {
+        height: 500px;
+    }
+
+    .banner-size {
+        height: 500px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner-size {
+        height: 400px;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .banner h1 {
+        font-size: 23px;
+    }
+}

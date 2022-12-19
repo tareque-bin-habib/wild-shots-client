@@ -8,24 +8,26 @@ import './Banner.css'
 const Banner = () => {
     return (
         <div className='banner'>
-            <Carousel>
-                <Carousel.Item>
-                    <div className='banner-img-1'>
-                        <h2></h2>
-                    </div>
+            <div className=''>
+                <Carousel>
+                    <Carousel.Item>
+                        <div className='banner-img-1 banner-size d-flex align-items-center justify-content-center'>
+                            <h1 className='text-white'>Rise and fall of the <br /> dog-like hyenas</h1>
+                        </div>
 
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className='banner-img-2'>
-                        <h2>This is second</h2>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className='banner-img-3'>
-                        <h2 className='text-white'>Thsis is Third</h2>
-                    </div>
-                </Carousel.Item>
-            </Carousel>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className='banner-img-2 banner-size d-flex align-items-center justify-content-center'>
+                            <h1 className='text-white'>The Cheetah’s Wild Life is <br /> very popular to all</h1>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className='banner-img-3 banner-size d-flex align-items-center justify-content-center'>
+                            <h1 className='text-white'>Family of Lion In the deep <br /> forest is amazing</h1>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
         </div>
 
     );

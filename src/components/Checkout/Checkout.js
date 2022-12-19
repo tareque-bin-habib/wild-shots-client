@@ -3,7 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { AuthContext } from '../../contexts/UserContext';
-
+import './Checkout.css'
 
 const Checkout = () => {
     const service = useLoaderData();
@@ -48,7 +48,7 @@ const Checkout = () => {
         <div className='text-center mt-5'>
             <div>
                 <h1 className='mb-5 title-name'>{name}</h1>
-                <img src={image} alt="" />
+                <img className='review-image' src={image} alt="" />
                 <p className='fw-bold p-5'>{details}</p>
                 <p className='fw-bold'>Ratings: {ratings} star</p>
                 <p className='fw-bold'>Price: ${Price}</p>
@@ -56,8 +56,8 @@ const Checkout = () => {
                     See Your Reviews
                 </Button></Link>
             </div>
-            <div className='d-flex align-items-center justify-content-center'>
-                <div>
+            <div className='d-flex align-items-center justify-content-center '>
+                <div className='review-container'>
                     <h2 className='text-center title-name fw-bold mt-5'>Review Our Photo</h2>
                     <Form onSubmit={handleReview}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
