@@ -1,3 +1,15 @@
+# Website Description
+Name: Wild Shot
+Live site: https://wild-shot.web.app
+
+# Features:
+Private Routes
+You can see your own review
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
